@@ -4,7 +4,7 @@ from django.db.models import Q
 
 from pybo.models import Question
 
-import  logging
+import logging
 logger = logging.getLogger('pybo')
 
 def index(request):
